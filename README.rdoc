@@ -1,28 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby : ruby 2.1.1p76
 
-Things you may want to cover:
+Rails 4
 
-* Ruby version
+SQlite3 as default
 
-* System dependencies
+  bundle exec rake db:migrate
 
-* Configuration
+  rails s
 
-* Database creation
+Application example to Stackoverflow response :
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+http://stackoverflow.com/questions/8153051/rails-how-to-limit-number-of-items-in-has-many-association-from-parent/15430144#15430144
