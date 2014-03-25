@@ -5,7 +5,7 @@
     <tr>
       <th>Name</th>
       <th>Things limit</th>
-      <th></th>
+      <th>User things</th>
       <th></th>
       <th></th>
     </tr>
@@ -16,6 +16,7 @@
       <tr>
         <td><%= user.name %></td>
         <td><%= user.things_limit %></td>
+        <td><%= user.things.size %></td>
         <td><%= link_to 'Show', user %></td>
         <td><%= link_to 'Edit', edit_user_path(user) %></td>
         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
